@@ -37,7 +37,7 @@ export const ui = {
     // Intro Card
     'intro.welcome': 'welcome',
     'intro.title':
-      "Hi, I'm <b>Andrés Camilo Plaza</b>, a software developer, systems engineer and tattoo artist with strong focus on the user experience, animations and micro interactions. I love to create beautiful and functional interfaces, I am passionate about technology and I am always looking for new challenges.",
+      "Hi, I'm <b> Nidhi Agrawal </b>, a backend engineer with 5+ years of experience designing, building, and operating scalable backend systems. I specialize in clean API design, complex integrations, and reliable services that run in production. I enjoy owning systems end-to-end and solving real-world problems through thoughtful engineering.",
     'intro.sr.github': 'GitHub Profile',
     'intro.sr.linkedin': 'Linkedin Profile',
     'intro.sr.email': 'Email contact',
@@ -45,10 +45,10 @@ export const ui = {
     // About Me
     'about.title': 'About me',
     'about.description':
-      "Hi, I'm Andrés, a fullstack software developer from Colombia 🇨🇴.",
+      "Hi, I'm Nidhi, a backend software developer from India 🇮🇳.",
     'about.tools': 'My primary tools of choice includes:',
     'about.hobbies':
-      "Beyond coding, I'm passionate about tattoo, soccer and traveling. An unusual hobby of mine is play classical music in the guitar or ukulele.",
+      "Beyond coding, I’m usually dancing, solving puzzles, or planning my next trip — because debugging isn’t the only problem I like to solve. I enjoy challenges that keep me curious, creative, and constantly learning.",
 
     // Now Card
     'now.title': 'Now',
@@ -98,14 +98,14 @@ export const ui = {
     '404.goHome': 'Go back home',
 
     // Home Page
-    'home.title': 'Andrés Plaza - Full Stack Developer',
+    'home.title': 'Nidhi Agrawal - Senior Backend Developer',
     'home.description':
-      'Andrés Plaza - Full Stack Developer - Portfolio, Projects, CV, About Me, Contact, Timezone, Now, Experience, Tattoo, Study',
+      'Nidhi Agrawal - Senior Backend Developer - Portfolio, Projects, CV, About Me, Contact, Timezone, Now, Experience, Tattoo, Study',
     'home.portfolio': 'Portfolio & Projects',
 
     // Quote
-    'quote.text': 'Anything one man can imagine, other men can make real.',
-    'quote.author': '- Jules Verne',
+    'quote.text': 'I believe in constant learning, fair consequences, and mastering my craft. Every day adds knowledge, every build adds power — and when code turns into magic, I know exactly who the magician is.',
+    'quote.author': '- Based on my experiences',
 
     // Footer
     'footer.builtBy': 'Built by',
@@ -117,9 +117,9 @@ export const ui = {
     'experience.current': 'Current',
 
     // Experience - Mercado Libre
-    'experience.mercadolibre.company': 'Mercado Libre',
-    'experience.mercadolibre.position': 'Software Engineer',
-    'experience.mercadolibre.location': 'Bogotá D C, Colombia',
+    'experience.mercadolibre.company': 'JobTwine',
+    'experience.mercadolibre.position': 'Software Engineer - Backend',
+    'experience.mercadolibre.location': 'Remote, India',
     'experience.mercadolibre.tasks.0':
       'Development and maintenance of scalable web applications using modern technologies',
     'experience.mercadolibre.tasks.1':
@@ -128,9 +128,9 @@ export const ui = {
       'Implementation of best practices and clean code principles',
 
     // Experience - Straico
-    'experience.straico.company': 'Straico',
-    'experience.straico.position': 'Software Engineer',
-    'experience.straico.location': 'Bogotá D C, Colombia',
+    'experience.straico.company': 'BYJUs',
+    'experience.straico.position': 'Product Manager (Tech)',
+    'experience.straico.location': 'Bangalore, India',
     'experience.straico.tasks.0':
       'Integration of AI services and APIs using React and Tailwind CSS',
     'experience.straico.tasks.1':
@@ -139,9 +139,9 @@ export const ui = {
       'Development of user interfaces with focus on performance and accessibility',
 
     // Experience - Spot2
-    'experience.spot2.company': 'Spot2',
-    'experience.spot2.position': 'Software Engineer',
-    'experience.spot2.location': 'Mexico City, Mexico',
+    'experience.spot2.company': 'Tata Consultancy Services',
+    'experience.spot2.position': 'Assistant System Engineer',
+    'experience.spot2.location': 'Mumbai, India',
     'experience.spot2.tasks.0':
       'Full-stack development of the Spot2 platform using React, Redux, and Material UI',
     'experience.spot2.tasks.1':
@@ -149,53 +149,7 @@ export const ui = {
     'experience.spot2.tasks.2':
       'Development of internal management platform with React and Redux for state management',
     'experience.spot2.tasks.3':
-      'Quality assurance, testing, and debugging of production applications',
-
-    // Experience - Imaginamos
-    'experience.imaginamos.company': 'Imaginamos',
-    'experience.imaginamos.position': 'Frontend Developer',
-    'experience.imaginamos.location': 'Bogotá D C, Colombia',
-    'experience.imaginamos.tasks.0':
-      'Development of responsive web applications using React, Redux, and Material UI',
-    'experience.imaginamos.tasks.1':
-      'Implementation of features for ETB telecommunications project',
-    'experience.imaginamos.tasks.2':
-      'Collaboration with design and backend teams to ensure seamless user experience',
-
-    // Experience - INETUM
-    'experience.inetum.company': 'INETUM',
-    'experience.inetum.position': 'Frontend Developer',
-    'experience.inetum.location': 'Bogotá D C, Colombia',
-    'experience.inetum.tasks.0':
-      'Quality assurance support, bug tracking, and code review processes',
-    'experience.inetum.tasks.1':
-      'Agile development using SCRUM methodology in cross-functional teams',
-    'experience.inetum.tasks.2':
-      'Development of Claro projects using React and Angular frameworks',
-    'experience.inetum.tasks.3':
-      'Implementation of Redux Toolkit for state management, improving development efficiency',
-
-    // Experience - SIG
-    'experience.sig.company': 'S I G',
-    'experience.sig.position': 'Software Developer',
-    'experience.sig.location': 'Bogotá D C, Colombia',
-    'experience.sig.tasks.0':
-      'Development of admin dashboard using React Admin and Chart.js for data visualization',
-    'experience.sig.tasks.1':
-      'Implementation of data management and entry forms with validation',
-
-    // Experience - BOOKII
-    'experience.bookii.company': 'BOOKII',
-    'experience.bookii.position': 'Software Developer',
-    'experience.bookii.location': 'Bogotá D C, Colombia',
-    'experience.bookii.tasks.0':
-      'Collaboration with backend team to develop conversational club features',
-    'experience.bookii.tasks.1':
-      'Implementation of conversational clubs using Redux for state management',
-    'experience.bookii.tasks.2':
-      'Localization and content management of Bookii Spanish website',
-    'experience.bookii.tasks.3':
-      'Static site generation using Gatsby and Contentful CMS for blog content',
+      'Quality assurance, testing, and debugging of production applications'
   },
   es: {
     // Navigation

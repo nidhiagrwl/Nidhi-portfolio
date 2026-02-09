@@ -7,12 +7,12 @@ export const loaderAnimation = [
 ]
 
 export const LINKS = {
-  github: 'https://github.com/bue221',
-  linkedin: 'https://www.linkedin.com/in/bue221/',
-  mail: 'mailto:camiloplaza3@gmail.com',
-  instagram: 'https://www.instagram.com/caj_ink/',
-  medium: 'https://ladvace.medium.com/',
-  discord: 'https://discordapp.com/users/163300027618295808',
+  github: 'https://github.com/nidhiagrwl',
+  linkedin: 'https://www.linkedin.com/in/nidhi-agrawal-b5a73b151/',
+  mail: 'mailto:nidhiagrawal.career@gmail.com',
+  instagram: 'https://www.instagram.com/nidhiagr_27?igsh=MXhtNDJibmxubmZ6MQ%3D%3D',
+  medium: 'https://medium.com/@nidhiagrawal.career',
+  discord: '',
 }
 
 // Global

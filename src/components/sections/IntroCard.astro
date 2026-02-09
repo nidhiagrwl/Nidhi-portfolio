@@ -10,41 +10,70 @@ const t = useTranslations(lang)
 ---
 
 <Card colSpan="md:col-span-3" rowSpan="md:row-span-4">
-  <div class="flex h-full w-full">
-    <div class="flex flex-col justify-between gap-4 md:max-h-[300px]">
-      <div class="flex h-full flex-col">
-        <h6 class="m-0 text-sm font-light text-gray-500">
+  <div
+    class="relative flex h-full w-full overflow-hidden rounded-2xl 
+           bg-white/90 dark:bg-zinc-900/90 p-6 backdrop-blur-xl"
+  >
+    <!-- Left content -->
+    <div class="z-10 flex flex-col justify-between gap-6">
+      <div class="space-y-2">
+        <h6 class="text-xs uppercase tracking-widest text-gray-500 dark:text-gray-400">
           {t('intro.welcome')}
         </h6>
-        <p class="m-0 text-xl font-light" set:html={t('intro.title')} />
+
+        <p
+          class="max-w-md text-xl font-normal leading-snug text-gray-900 dark:text-white md:text-2xl"
+          set:html={t('intro.title')}
+        />
+
+        <!-- Green accent line -->
+        <div class="mt-2 h-1 w-12 rounded-full bg-gradient-to-r from-green-400 to-green-600" />
       </div>
-      <div class="flex gap-4">
-        <a href={LINKS.github} aria-label="github profile" target="_blank">
-          <Button aria-label="github profile">
-            <Github />
+
+      <!-- Social buttons -->
+      <div class="flex gap-3">
+        <a href={LINKS.github} target="_blank" aria-label="github profile">
+          <Button class="group rounded-xl bg-zinc-100/80 dark:bg-zinc-800/80 p-3 transition-all hover:-translate-y-1 hover:bg-zinc-200 dark:hover:bg-zinc-700 hover:shadow-lg hover:shadow-green-400/20">
+            <Github stroke="currentColor" class="h-5 w-5 text-gray-900 dark:text-white group-hover:text-green-400" />
             <span class="sr-only">{t('intro.sr.github')}</span>
           </Button>
         </a>
-        <a href={LINKS.linkedin} aria-label="linkeding profile" target="_blank">
-          <Button aria-label="linkedin profile">
-            <Linkedin />
+
+        <a href={LINKS.linkedin} target="_blank" aria-label="linkedin profile">
+          <Button class="group rounded-xl bg-zinc-100/80 dark:bg-zinc-800/80 p-3 transition-all hover:-translate-y-1 hover:bg-zinc-200 dark:hover:bg-zinc-700 hover:shadow-lg hover:shadow-green-400/20">
+            <Linkedin stroke="currentColor" class="h-5 w-5 text-gray-900 dark:text-white group-hover:text-green-400" />
             <span class="sr-only">{t('intro.sr.linkedin')}</span>
           </Button>
         </a>
-        <a href={LINKS.mail} aria-label="mail profile" target="_blank">
-          <Button>
-            <Mail />
+
+        <a href={LINKS.mail} target="_blank" aria-label="email">
+          <Button class="group rounded-xl bg-zinc-100/80 dark:bg-zinc-800/80 p-3 transition-all hover:-translate-y-1 hover:bg-zinc-200 dark:hover:bg-zinc-700 hover:shadow-lg hover:shadow-green-400/20">
+            <Mail stroke="currentColor" class="h-5 w-5 text-gray-900 dark:text-white group-hover:text-green-400" />
             <span class="sr-only">{t('intro.sr.email')}</span>
           </Button>
         </a>
       </div>
     </div>
-    <img
-      width="300"
-      height="300"
-      src="/me.png"
-      class="pointer-events-none absolute bottom-[-20px] right-[-110px] z-[-1] max-h-[300px] w-auto select-none opacity-50 md:relative md:bottom-auto md:right-auto md:z-auto md:opacity-100"
-      alt="memoji of andres plaza"
-    />
+
+    <!-- Image -->
+    <div class="pointer-events-none absolute right-4 top-1/2 hidden -translate-y-1/2 md:block">
+      <div class="relative rounded-full bg-gradient-to-tr from-green-400 to-green-600 p-1">
+        <img
+          src="/me.png"
+          alt="memoji"
+          width="220"
+          height="220"
+          class="rounded-full bg-white dark:bg-zinc-900 object-contain"
+        />
+      </div>
+    </div>
+
+    <!-- Ambient glow -->
+    <div class="absolute -bottom-24 -right-24 h-64 w-64 rounded-full bg-green-500/20 blur-3xl" />
   </div>
 </Card>
+
+
+
+
+
